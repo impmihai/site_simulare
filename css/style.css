@@ -5,7 +5,13 @@
  *
  * Made By MaterializeCSS.com
  */
-
+* {
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -15,6 +21,7 @@
 .top-banner {
     background:url('../images/background.png') 50% 50%;
     background-size: cover;
+    font-family: Raleway;
 }
 .transparent-grey {
     background-color: rgba(160, 160, 160, 0.4);
@@ -40,6 +47,11 @@
 .logo-lsac-top {
     height:64px;
     width:auto;
+}
+
+.flow-text {
+    text-align: justify;
+    font-family: Raleway;
 }
 
 #nav {

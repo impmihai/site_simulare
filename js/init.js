@@ -20,13 +20,12 @@
     });
     $('window.hash')
     $('#nav a').on('click tap', function(e){
-        console.log(this.hash)
         var target = this.hash;
     	var $target = $(target);
         if($target.length)
             $('html, body').stop().animate({
         	    'scrollTop': $target.offset().top
-        	}, 400, 'swing');
+        	}, 600, 'swing');
     });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
