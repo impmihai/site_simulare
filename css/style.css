@@ -5,6 +5,13 @@
  *
  * Made By MaterializeCSS.com
  */
+ body {
+     background: url(../images/background-alb.png) !important;
+ }
+ .probe-bg {
+     background: url(../images/bg-materii.png) !important;
+     background-size:cover;
+}
 * {
     image-rendering: -moz-crisp-edges;         /* Firefox */
     image-rendering:   -o-crisp-edges;         /* Opera */
@@ -43,15 +50,18 @@
     content: url('../images/LogoLsac.png')
 }
 
-
 .logo-lsac-top {
     height:64px;
     width:auto;
 }
 
-.flow-text {
+.raleway-text {
     text-align: justify;
     font-family: Raleway;
+}
+
+.text-shadow {
+    text-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12), 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 #nav {

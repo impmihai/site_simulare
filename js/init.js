@@ -2,6 +2,8 @@
   $(function(){
 
     $('.button-collapse').sideNav();
+    $('.collapsible').collapsible();
+
     $('#inscriere').load('pages/inscriere.html')
     $('#probe').load('pages/probe.html')
     $('#faq').load('pages/faq.html')
