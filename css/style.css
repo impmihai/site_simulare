@@ -1,0 +1,47 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.top-banner {
+    background:url('../images/w.jpg') 50% 50%;
+    background-size: cover;
+}
+.transparent-grey {
+    background-color: rgba(160, 160, 160, 0.4);
+}
+.transparent-grey a {
+
+}
+.transparent-grey a img {
+    content: url('../images/LogoLSAC - alb.png')
+}
+
+.white-black-text {
+    background-color: #ffffff;
+}
+.white-black-text a{
+    color: #000000;
+}
+.white-black-text a img {
+    content: url('../images/LogoLsac.png')
+}
+
+
+.logo-lsac-top {
+    height:64px;
+    width:auto;
+}
+
+#nav {
+    transition:all .2s;
+}
