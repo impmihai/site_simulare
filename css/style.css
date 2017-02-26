@@ -8,9 +8,8 @@
  body {
      background: url(../images/background-alb.png) !important;
  }
- .probe-bg {
-     background: url(../images/bg-materii.png) !important;
-     background-size:cover;
+ .backgr {
+     background: url(../images/bg-materii.png) repeat-x, rgb(55,70,61) !important;
 }
 * {
     image-rendering: -moz-crisp-edges;         /* Firefox */
@@ -42,6 +41,7 @@
 
 .white-black-text {
     background-color: #ffffff;
+    color: #000000;
 }
 .white-black-text a{
     color: #000000;
@@ -62,6 +62,10 @@
 
 .text-shadow {
     text-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12), 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.probe {
+    background-color: rgba(175, 188, 182, 0.22);
 }
 
 #nav {
