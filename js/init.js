@@ -5,9 +5,10 @@
     $('.collapsible').collapsible();
 
     $('#inscriere').load('pages/inscriere.html')
+    $('#prezentare').load('pages/prezentare.html')
     $('#probe').load('pages/probe.html')
     $('#faq').load('pages/faq.html')
-    $('#feedback').load('pages/feedback.html')
+ //   $('#feedback').load('pages/feedback.html')
     $('#contact').load('pages/contact.html')
 
     $(window).on('scroll', function (event) {
