@@ -7,7 +7,7 @@
  */
 
 .background-descriere {
-    background: url(../images/bg-deschis.png) repeat-x;
+    background: url(../images/bg-deschis.png) 50% 100% repeat-x, url(../images/bg-deschis-top.png) 50% repeat;
     margin-top:-20px;
 }
 
@@ -37,6 +37,7 @@
     content: url('../images/LogoLSAC - alb.png')
 }
 
+
 .white-black-text {
     background-color: rgba(52,52,52,0.8);
     color: #FFFFFF;
@@ -49,7 +50,7 @@
 }
 
 .logo-lsac-top {
-    height:5vh;
+    height: 35px;
     margin-top:2vh;
     width:auto;
 }
