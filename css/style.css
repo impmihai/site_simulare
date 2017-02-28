@@ -18,9 +18,11 @@
 
 .icon-block {
   padding: 0 15px;
+  margin-bottom:5vh;
+  margin-top:-5vh;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+	font-size: 5vh;
 }
 .top-banner {
     background:url('../images/background.png') 50% 50%;
@@ -36,7 +38,9 @@
 .transparent-grey a img {
     content: url('../images/LogoLSAC - alb.png')
 }
-
+.dark-text {
+    color: rgba(52,52,52,0.8);
+}
 
 .white-black-text {
     background-color: rgba(52,52,52,0.8);
