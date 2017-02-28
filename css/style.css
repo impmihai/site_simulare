@@ -5,19 +5,17 @@
  *
  * Made By MaterializeCSS.com
  */
- body {
-     background: url(../images/background-alb.png) !important;
- }
- .backgr {
-     background: url(../images/bg-materii.png) repeat-x, rgb(55,70,61) !important;
+
+.background-descriere {
+    background: url(../images/bg-deschis.png) repeat-x;
+    margin-top:-20px;
 }
-* {
-    image-rendering: -moz-crisp-edges;         /* Firefox */
-    image-rendering:   -o-crisp-edges;         /* Opera */
-    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
-    image-rendering: crisp-edges;
-    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+
+.background-gradient {
+    background: url(../images/bg-gradient.png) repeat-x, url(../images/bg-inchis.png) repeat;
 }
+
+
 .icon-block {
   padding: 0 15px;
 }
@@ -40,18 +38,19 @@
 }
 
 .white-black-text {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: rgba(52,52,52,0.8);
+    color: #FFFFFF;
 }
 .white-black-text a{
-    color: #000000;
+    color: #FFFFFF;
 }
 .white-black-text a img {
-    content: url('../images/LogoLsac.png')
+    content: url('../images/LogoLSAC - alb.png')
 }
 
 .logo-lsac-top {
-    height:64px;
+    height:5vh;
+    margin-top:2vh;
     width:auto;
 }
 
@@ -86,6 +85,19 @@
     text-align-last: center;
 }
 
+.title {
+    text-align:center !important;
+    margin-top: 50px;
+}
+
+.side-nav {
+    color:black !important;
+    padding-top:20px;
+}
+.side-nav a{
+    color:black !important;
+    margin-left:20px;
+}
 
 #nav {
     transition:all .2s;

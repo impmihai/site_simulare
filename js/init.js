@@ -27,8 +27,8 @@
     	var $target = $(target);
         if($target.length)
             $('html, body').stop().animate({
-        	    'scrollTop': $target.offset().top - $('#nav').height()
-        	}, 600, 'swing');
+        	    'scrollTop': $target.offset().top
+        	}, 1200, 'linear');
     });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
