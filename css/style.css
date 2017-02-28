@@ -44,12 +44,12 @@
 
 .white-black-text {
     background-color: rgba(52,52,52,0.8);
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 .white-black-text a{
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
-.white-black-text a img {
+.white-black-text a>img {
     content: url('../images/LogoLSAC - alb.png')
 }
 
@@ -96,11 +96,11 @@
 }
 
 .side-nav {
-    color:black !important;
+    color:white !important;
     padding-top:20px;
 }
 .side-nav a{
-    color:black !important;
+    color:white !important;
     margin-left:20px;
 }
 
