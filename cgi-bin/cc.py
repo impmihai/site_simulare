@@ -15,13 +15,20 @@ last_name  = form.getvalue('last_name')
 first_name +=" " + last_name
 email = form.getvalue('email')
 mesaj = form.getvalue('mesaj')
+p = str("\nprenume: ")
+n = str("\nnume: ")
+m = str("\nmesaj: ")
+pp = str(first_name)
+nn = str(last_name)
+mm = str(mesaj)
 
-text = "nume: " + str(last_name) + " prenume: " + str(first_name) + "  mail " + str(email)  + " mesaj " + str(mesaj) 
+ee = str(email)
+e = str("email ")
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 server.login("alinvelican@gmail.com", "hhazvynbviaytcsk")
-server.sendmail("alinvelican@gmail.com", "dark_ride_dark_ride@yahoo.com", text)
+server.sendmail("alinvelican@gmail.com", "dark_ride_dark_ride@yahoo.com",   n + nn + p + pp + e+ ee+ m + mm)
 server.quit()
 
 
