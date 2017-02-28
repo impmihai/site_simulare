@@ -4,7 +4,7 @@
 import cgi, cgitb 
 import smtplib
 import os
-
+import smtplib
 cgitb.enable()
 # Create instance of FieldStorage 
 form = cgi.FieldStorage() 
@@ -16,9 +16,13 @@ first_name +=" " + last_name
 email = form.getvalue('email')
 mesaj = form.getvalue('mesaj')
 
-text = "Nume: " + last_name + " Prenumele: " + first_name + " Email: " + email  + " Mesajul: " 
+text = "nume: " + str(last_name) + " prenume: " + str(first_name) + "  mail " + str(email)  + " mesaj " + str(mesaj) 
 
-os.system("python /home/ddd/site-sim/site_simulare/site_simulare/cgi-bin/p.py " + str(text))
+server = smtplib.SMTP('smtp.gmail.com', 587)
+server.starttls()
+server.login("alinvelican@gmail.com", "hhazvynbviaytcsk")
+server.sendmail("alinvelican@gmail.com", "dark_ride_dark_ride@yahoo.com", text)
+server.quit()
 
 
 print "Content-type:text/html\r\n\r\n"
