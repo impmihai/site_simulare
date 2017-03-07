@@ -65,13 +65,27 @@ body {
 }
 
 .raleway-text {
+    font-weight: 100;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
 }
+
 .open-sans-text {
+    font-weight: 100;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
 }
+
+.open-sans-text b {
+    font-weight: 900;
+    text-shadow: 0px 0px 10px black;
+}
+
+.raleway-text b {
+    font-weight: 900;
+    text-shadow: 0px 0px 10px black;
+}
+
 .text-normal {
     font-size: 16px;
 }

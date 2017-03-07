@@ -24,6 +24,12 @@
     $('window.hash')
     $('#nav a').on('click tap', function(e){
         e.preventDefault();
+        if(history.pushState) {
+            history.pushState(null, null, this.hash);
+        }
+        else {
+            location.hash = this.hash;
+        }
         var target = this.hash;
     	var $target = $(target);
         if($target.length)
