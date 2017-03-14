@@ -47,6 +47,10 @@ body {
     color: rgba(52,52,52,0.8);
 }
 
+.dark-green-text {
+    color: #314f51;
+}
+
 .white-black-text {
     background-color: rgba(52,52,52,0.8);
     color: #FFFFFF !important;
@@ -147,4 +151,13 @@ body {
   opacity: .4;
   z-index: -1;
   background: black;
+}
+
+.img-banner {
+    height:7rem;
+    margin-bottom:10px;
+}
+
+.img-logo {
+    width:100%;
 }

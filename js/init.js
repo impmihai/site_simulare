@@ -9,6 +9,7 @@
     $('#probe').load('pages/probe.html')
     $('#faq').load('pages/faq.html')
  //   $('#feedback').load('pages/feedback.html')
+    $('#parteneri').load('pages/partener.html')
     $('#contact').load('pages/contact.html')
 
     $(window).on('scroll', function (event) {
